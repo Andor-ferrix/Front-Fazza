@@ -43,9 +43,26 @@ export default function ContactPage() {
     setIsSubmitting(true)
 
     // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 2000))
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
-    console.log("Form submitted:", formData)
+      const data = await res.json();
+
+      if (data.success) {
+        alert("Mensagem enviada com sucesso!");
+      } else {
+        alert("Erro ao enviar. Tente novamente.");
+      }
+    } catch (error) {
+      console.error("Erro:", error);
+      alert("Erro inesperado ao enviar.");
+    }
     setIsSubmitting(false)
 
     // Reset form
