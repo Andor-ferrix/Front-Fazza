@@ -26,7 +26,7 @@ export default function UnderDevelopmentPage() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-amber-50/30 to-emerald-50/30">
+    <div className="relative min-h-screen bg-gradient-to-br from-white via-amber-50/30 to-emerald-50/30">
 {/* Header */}
         <header className="fixed top-0 left-0 w-full z-100 backdrop-blur-sm bg-black/20 border-b border-amber-400/30">
           <div className="container mx-auto px-4 py-4 flex items-center justify-between">
