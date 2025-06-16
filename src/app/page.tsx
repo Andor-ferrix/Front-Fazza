@@ -10,7 +10,6 @@ import {
   TrendingUp,
   Users,
   DollarSign,
-  Leaf,
   Coins,
   Menu, // 3. Ícone do menu hambúrguer
   X,    // 4. Ícone para fechar o menu
