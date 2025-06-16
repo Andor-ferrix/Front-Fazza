@@ -1,16 +1,10 @@
 import {
   ArrowRight,
-  CheckCircle,
   Globe,
   Shield,
   TrendingUp,
   Users,
-  Wheat,
   DollarSign,
-  PiggyBank,
-  CreditCard,
-  Sparkles,
-  Zap,
   Leaf,
   Coins
 } from "lucide-react"

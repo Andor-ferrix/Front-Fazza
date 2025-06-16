@@ -3,7 +3,7 @@ import React from 'react';
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-import { ArrowLeft, ArrowRight, Sparkles, Wheat, Clock, Wrench, Zap } from "lucide-react"
+import { ArrowLeft } from "lucide-react"
 
 export const metadata = {
   title: 'Política de Privacidade',
