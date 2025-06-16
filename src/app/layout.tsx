@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Fazza Agro Bank",
   description: "Banco digital para o agronegócio brasileiro",
+  icons: {
+    icon: "/image/logo.png",  
+  },
 };
 
 export default function RootLayout({
