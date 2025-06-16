@@ -69,7 +69,7 @@ export default function ContactPage() {
             <div className="flex items-center space-x-3">
               <div className="relative">
                 <img
-                  src="/image/logo.PNG"
+                  src="/image/logo.png"
                   alt="Fazza Agro Bank Logo"
                   className="h-20 w-20 rounded-full"
                 />

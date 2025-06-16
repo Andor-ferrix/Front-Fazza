@@ -20,7 +20,7 @@ export default function PoliticaDePrivacidade() {
             <div className="flex items-center space-x-3">
               <div className="relative">
                 <img
-                  src="/image/logo.PNG"
+                  src="/image/logo.png"
                   alt="Fazza Agro Bank Logo"
                   className="h-20 w-20 rounded-full"
                 />
@@ -107,7 +107,7 @@ export default function PoliticaDePrivacidade() {
             <div className="max-w-md">
               <div className="flex flex-col items-center mb-6">
                 <img
-                  src="/image/logo.PNG"
+                  src="/image/logo.png"
                   alt="Fazza Agro Bank Logo"
                   className="h-20 w-20 rounded-full mb-2"
                 />
