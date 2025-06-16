@@ -144,17 +144,19 @@ export default function UnderDevelopmentPage() {
         <p className="text-sm text-white/60 mt-2">{progress}% Completo</p>
       </div>
           {/* Call to Action */}
-          <div className="space-y-4">
-            <Link href="/contact">
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-amber-500 to-emerald-500 hover:from-amber-600 hover:to-emerald-600 text-white font-semibold text-lg px-10 py-4 shadow-2xl hover:shadow-amber-500/25 transition-all duration-300 transform hover:scale-105"
-              >
+        <div className="space-y-4 px-4">
+          <Link href="/contact">
+            <Button
+              size="lg"
+              className="max-w-full bg-gradient-to-r from-amber-500 to-emerald-500 hover:from-amber-600 hover:to-emerald-600 text-white font-semibold text-lg px-6 py-4 shadow-2xl hover:shadow-amber-500/25 transition-all duration-300 transform hover:scale-105"
+            >
+              <span className="truncate">
                 Saiba mais & Receba Atualizações
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-            </Link>
-          </div>
+              </span>
+              <ArrowRight className="ml-2 h-5 w-5 shrink-0" />
+            </Button>
+          </Link>
+        </div>
 
           {/* Decorative separator */}
           <div className="flex justify-center items-center space-x-4 mt-12">
