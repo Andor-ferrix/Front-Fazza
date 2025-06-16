@@ -127,7 +127,7 @@ export default function FazzaAgroBankLanding() {
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-center mb-0">
             <img 
-              src="/image/logo.PNG" 
+              src="/image/logo.png" 
               alt="Logo Fazza Agro Bank" 
               className="w-32 h-auto"
             />
