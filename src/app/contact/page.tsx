@@ -123,7 +123,7 @@ export default function ContactPage() {
                 </div>
 
                 <h2 className="text-4xl font-bold mb-8">
-                  Let's Grow
+                  Let&apos;s Grow
                   <span className="block bg-gradient-to-r from-amber-400 to-emerald-400 bg-clip-text text-transparent leading-tight py-2">
                     Together
                   </span>
@@ -166,7 +166,7 @@ export default function ContactPage() {
                 </span>
               </h1>
               <p className="text-gray-600 text-lg">
-                Want to know more about our digital bank and investments? Let's talk.
+                Want to know more about our digital bank and investments? Let&apos;s talk.
               </p>
             </div>
 

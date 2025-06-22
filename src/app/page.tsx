@@ -268,7 +268,7 @@ export default function FazzaAgroBankLanding() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 leading-relaxed">
-                  Part of the transaction fees is allocated to social projects in Palestine, Africa, and children's programs, 
+                  Part of the transaction fees is allocated to social projects in Palestine, Africa, and children&apos;s programs, 
                   creating a positive social impact with every transaction.
                 </p>
               </CardContent>
@@ -322,7 +322,7 @@ export default function FazzaAgroBankLanding() {
                     <Leaf className="w-6 h-6 text-black" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-emerald-300">Brazil's Market Position</h4>
+                    <h4 className="font-semibold text-emerald-300">Brazil&apos;s Market Position</h4>
                     <p className="text-sm text-slate-300">A leader in agricultural production, a key market for expansion.</p>
                   </div>
                 </div>
