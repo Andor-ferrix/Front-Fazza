@@ -1,4 +1,4 @@
-// app/politica-de-privacidade/page.tsx
+// app/privacy-policy/page.tsx
 import React from 'react';
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -6,11 +6,11 @@ import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 
 export const metadata = {
-  title: 'Política de Privacidade',
-  description: 'Saiba como tratamos seus dados ao preencher nosso formulário de contato.',
+  title: 'Privacy Policy',
+  description: 'Learn how we handle your data when you fill out our contact form.',
 };
 
-export default function PoliticaDePrivacidade() {
+export default function PrivacyPolicy() {
   return (
         
     <div className="min-h-screen bg-white">
@@ -32,69 +32,69 @@ export default function PoliticaDePrivacidade() {
             <Link href="/">
             <Button variant="outline" className="border-emerald-200 text-emerald-600 hover:bg-emerald-50">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Voltar Início
+              Back to Home
             </Button>
             </Link>
           </div>
         </header>
 
     <main className="max-w-3xl mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold mb-6">Política de Privacidade – Formulário de Contato</h1>
+      <h1 className="text-3xl font-bold mb-6">Privacy Policy – Contact Form</h1>
 
       <section className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">1. Introdução</h2>
+        <h2 className="text-xl font-semibold mb-2">1. Introduction</h2>
         <p>
-          Esta Política de Privacidade tem como objetivo esclarecer como as informações fornecidas por você ao preencher nosso
-          formulário de contato são coletadas, utilizadas e protegidas.
+          This Privacy Policy aims to clarify how the information provided by you when filling out our
+          contact form is collected, used, and protected.
         </p>
-        <p>Ao enviar suas informações, você concorda com os termos desta política.</p>
+        <p>By submitting your information, you agree to the terms of this policy.</p>
       </section>
 
       <section className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">2. Dados Coletados</h2>
-        <p>Coletamos apenas os dados necessários para o contato:</p>
+        <h2 className="text-xl font-semibold mb-2">2. Data Collected</h2>
+        <p>We only collect the data necessary for contact:</p>
         <ul className="list-disc list-inside">
-          <li>Nome</li>
-          <li>E-mail</li>
-          <li>Empresa</li>
-          <li>Cargo</li>
-          <li>Telefone</li>
-          <li>Mensagem</li>
+          <li>Name</li>
+          <li>Email</li>
+          <li>Company</li>
+          <li>Position</li>
+          <li>Phone</li>
+          <li>Message</li>
         </ul>
       </section>
 
       <section className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">3. Finalidade do Uso dos Dados</h2>
+        <h2 className="text-xl font-semibold mb-2">3. Purpose of Data Use</h2>
         <p>
-          Os dados fornecidos serão usados exclusivamente para responder à sua mensagem, esclarecer dúvidas ou fornecer
-          informações solicitadas.
+          The data provided will be used exclusively to respond to your message, clarify doubts, or provide
+          requested information.
         </p>
       </section>
 
       <section className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">4. Armazenamento e Segurança</h2>
+        <h2 className="text-xl font-semibold mb-2">4. Storage and Security</h2>
         <p>
-          Seus dados são armazenados de forma segura, com acesso restrito apenas a pessoas autorizadas. Adotamos medidas
-          técnicas e administrativas para protegê-los.
+          Your data is stored securely, with restricted access only to authorized personnel. We adopt
+          technical and administrative measures to protect it.
         </p>
       </section>
 
       <section className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">5. Compartilhamento de Dados</h2>
-        <p>Não compartilhamos seus dados com terceiros. As informações são utilizadas apenas internamente.</p>
+        <h2 className="text-xl font-semibold mb-2">5. Data Sharing</h2>
+        <p>We do not share your data with third parties. The information is used only internally.</p>
       </section>
 
       <section className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">6. Retenção dos Dados</h2>
+        <h2 className="text-xl font-semibold mb-2">6. Data Retention</h2>
         <p>
-          Os dados serão mantidos apenas enquanto forem necessários para os fins mencionados, ou conforme obrigações legais.
+          The data will be kept only as long as necessary for the purposes mentioned, or as required by legal obligations.
         </p>
       </section>
 
       <section className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">8. Alterações nesta Política</h2>
+        <h2 className="text-xl font-semibold mb-2">7. Changes to this Policy</h2>
         <p>
-          Podemos atualizar esta política periodicamente. Recomendamos que você a revise ocasionalmente para estar informado.
+          We may update this policy periodically. We recommend that you review it occasionally to stay informed.
         </p>
       </section>
     </main>
@@ -102,7 +102,7 @@ export default function PoliticaDePrivacidade() {
       <footer className="bg-emerald-950 text-white py-16 px-4">
         <div className="container mx-auto">
           
-          {/* Conteúdo principal */}
+          {/* Main Content */}
           <div className="grid md:grid-cols-1 gap-8 mb-12 place-items-center text-center">
             <div className="max-w-md">
               <div className="flex flex-col items-center mb-6">
@@ -116,7 +116,7 @@ export default function PoliticaDePrivacidade() {
                 </span>
               </div>
               <p className="text-emerald-200 leading-relaxed">
-                Transformando a agricultura por meio de soluções bancárias digitais inovadoras com uma abordagem moderna.
+                Transforming agriculture through innovative digital banking solutions with a modern approach.
               </p>
             </div>
           </div>

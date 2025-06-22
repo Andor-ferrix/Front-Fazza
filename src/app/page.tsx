@@ -16,7 +16,7 @@ import Link from "next/link"
 export default function FazzaAgroBankLanding() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section with Background Image asdasdsadsadssd */}
+      {/* Hero Section with Background Image */}
       <div
         className="relative min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
@@ -44,34 +44,34 @@ export default function FazzaAgroBankLanding() {
                 href="#solutions"
                 className="text-white/90 hover:text-amber-400 transition-all duration-300 relative group"
               >
-                Soluções
+                Solutions
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-amber-400 to-emerald-400 group-hover:w-full transition-all duration-300"></span>
               </a>
               <a
                 href="#market"
                 className="text-white/90 hover:text-amber-400 transition-all duration-300 relative group"
               >
-                Mercado
+                Market
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-amber-400 to-emerald-400 group-hover:w-full transition-all duration-300"></span>
               </a>
               <a
-                href="#plataform"
+                href="#platform"
                 className="text-white/90 hover:text-amber-400 transition-all duration-300 relative group"
               >
-                Plataforma
+                Platform
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-amber-400 to-emerald-400 group-hover:w-full transition-all duration-300"></span>
               </a>
               <a
                 href="/contact"
                 className="text-white/90 hover:text-amber-400 transition-all duration-300 relative group"
               >
-                Contato
+                Contact
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-amber-400 to-emerald-400 group-hover:w-full transition-all duration-300"></span>
               </a>
             </nav>
             <Link href="/under">
             <Button className="bg-gradient-to-r from-amber-500 to-emerald-500 hover:from-amber-600 hover:to-emerald-600 text-white border-0 shadow-lg hover:shadow-amber-500/25 transition-all duration-300">
-              Começar
+              Get Started
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             </Link>
@@ -84,18 +84,18 @@ export default function FazzaAgroBankLanding() {
             <div className="mb-64">
             </div>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-8 leading-tight break-words">
-              <span className="text-white">Transformando a </span>
+              <span className="text-white">Transforming </span>
               
               <span className="bg-gradient-to-r from-amber-400 via-yellow-300 to-emerald-400 bg-clip-text text-transparent">
-                Agricultura
+                Agriculture
               </span>
               <br />
-              <span className="text-white/90">Por Meio do Banco Digital</span>
+              <span className="text-white/90">Through the Digital Bank</span>
             </h1>
             <p className="text-xl text-white/80 mb-12 max-w-3xl mx-auto leading-relaxed">
-              Inclusão financeira para pequenos e médios produtores rurais. Fazza Agro Bank oferece soluções inovadoras que 
-              combinam taxas competitivas, transações globais, promovendo inclusão financeira,
-              segurança nas transações, proteção contra a volatilidade cambial, e impacto social positivo.
+              Financial inclusion for small and medium-sized rural producers. Fazza Agro Bank offers innovative solutions that 
+              combine competitive rates, global transactions, promoting financial inclusion,
+              transaction security, protection against currency volatility, and positive social impact.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link href="/under">
@@ -103,7 +103,7 @@ export default function FazzaAgroBankLanding() {
                 size="lg"
                 className="bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-slate-900 font-semibold text-lg px-10 py-4 shadow-2xl hover:shadow-amber-500/25 transition-all duration-300 transform hover:scale-105"
               >
-                Explore Nossas Soluções
+                Explore Our Solutions
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               </Link>
@@ -114,7 +114,7 @@ export default function FazzaAgroBankLanding() {
                 variant="outline"
                 className="text-lg px-10 py-4 border-2 border-white/50 text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300 transform hover:scale-105"
               >
-                Saber Mais
+                Learn More
               </Button>
               </Link>
             </div>
@@ -123,7 +123,7 @@ export default function FazzaAgroBankLanding() {
       </div>
 
       {/* Introduction Section */}
-      <section id="plataform"className="py-14 px-4 bg-gradient-to-br from-slate-900 via-emerald-900 to-emerald-950">
+      <section id="platform"className="py-14 px-4 bg-gradient-to-br from-slate-900 via-emerald-900 to-emerald-950">
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-center mb-0">
             <img 
@@ -137,37 +137,37 @@ export default function FazzaAgroBankLanding() {
               Fazza Agro Bank
             </h2>
             <p className="text-lg text-slate-300 max-w-full mx-auto leading-relaxed">
-              O Fazza Agro Bank é um banco digital inovador que promove inclusão financeira e impacto social, 
-              atendendo pequenos e médios produtores rurais, microempreendedores e comunidades carentes.
+              Fazza Agro Bank is an innovative digital bank that promotes financial inclusion and social impact, 
+              serving small and medium-sized rural producers, micro-entrepreneurs, and underserved communities.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold text-amber-300">Nossa plataforma abrangente</h3>
+              <h3 className="text-2xl font-semibold text-amber-300">Our Comprehensive Platform</h3>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-emerald-400 rounded-full mt-2 shadow-lg shadow-emerald-400/50"></div>
-                  <p className="text-slate-300">Linhas de crédito para o setor agrícola com taxas de juros competitivas.</p>
+                  <p className="text-slate-300">Credit lines for the agricultural sector with competitive interest rates.</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 shadow-lg shadow-amber-400/50"></div>
-                  <p className="text-slate-300">Operações digitais com transferências via PIX, PIX Internacional, TED e DOC.</p>
+                  <p className="text-slate-300">Digital operations with transfers via PIX, International PIX, TED, and DOC.</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-emerald-400 rounded-full mt-2 shadow-lg shadow-emerald-400/50"></div>
-                  <p className="text-slate-300">Integração com USDT para transações globais, proporcionando proteção contra a volatilidade cambial.</p>
+                  <p className="text-slate-300">Integration with USDT for global transactions, providing protection against currency volatility.</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 shadow-lg shadow-amber-400/50"></div>
-                  <p className="text-slate-300">Carteira completa de seguros (saúde, vida e incêndio para residências e empresas).</p>
+                  <p className="text-slate-300">Complete insurance portfolio (health, life, and fire for homes and businesses).</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-emerald-400 rounded-full mt-2 shadow-lg shadow-emerald-400/50"></div>
-                  <p className="text-slate-300">Serviços de câmbio com taxas acessíveis para captação de recursos no exterior.</p>
+                  <p className="text-slate-300">Foreign exchange services with accessible rates for raising funds abroad.</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 shadow-lg shadow-amber-400/50"></div>
-                  <p className="text-slate-300">Banco Humanitário Fazza, apoiando projetos sociais e programas de educação financeira.</p>
+                  <p className="text-slate-300">Fazza Humanitarian Bank, supporting social projects and financial education programs.</p>
                 </div>
               </div>
             </div>
@@ -186,10 +186,10 @@ export default function FazzaAgroBankLanding() {
 
           <div className="bg-gradient-to-br from-emerald-500/10 to-amber-500/10 rounded-2xl p-8 border border-amber-500/20 backdrop-blur-sm">
             <div className="text-center">
-              <h4 className="text-xl font-semibold mb-4 text-amber-300">Conta Transacional</h4>
+              <h4 className="text-xl font-semibold mb-4 text-amber-300">Transactional Account</h4>
               <p className="text-slate-300">
-                Uma solução exclusiva para produtores rurais que centraliza e facilita a gestão financeira no campo, proporcionando 
-                mais controle, praticidade e segurança nas transações, permitindo uma tomada de decisão mais estratégica e eficiente.
+                An exclusive solution for rural producers that centralizes and facilitates financial management in the field, providing 
+                more control, convenience, and security in transactions, allowing for more strategic and efficient decision-making.
               </p>
             </div>
           </div>
@@ -203,14 +203,14 @@ export default function FazzaAgroBankLanding() {
             <h2 className="text-4xl font-bold mb-6 text-gray-900">
               {" "}
               <span className="bg-gradient-to-r from-amber-500 to-emerald-600 bg-clip-text text-transparent">
-                Soluções Oferecidas
+                Solutions Offered
               </span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-emerald-600 mx-auto rounded-full"></div>
 
             <p className="py-8 text-lg text-slate-300 max-w-3xl mx-auto bg-gradient-to-r from-emerald-900 to-emerald-900 bg-clip-text text-transparent">
-            Soluções financeiras inovadoras projetadas especificamente para o setor agrícola e impacto social, promovendo inclusão financeira, 
-            acesso facilitado a crédito e transações seguras, impulsionando o desenvolvimento sustentável e fortalecendo comunidades rurais.
+            Innovative financial solutions designed specifically for the agricultural sector and social impact, promoting financial inclusion, 
+            facilitated access to credit, and secure transactions, driving sustainable development and strengthening rural communities.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -220,16 +220,16 @@ export default function FazzaAgroBankLanding() {
                   <Users className="h-8 w-8 text-amber-600" />
                 </div>
                 <CardTitle className="text-2xl text-gray-900 group-hover:text-amber-600 transition-colors duration-300">
-                 Conta Digital para Produtores
+                 Digital Account for Producers
                 </CardTitle>
                 <CardDescription className="text-emerald-600 font-medium">
-                  Inclusão financeira sem fronteiras
+                  Financial inclusion without borders
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 leading-relaxed">
-                Soluções bancárias digitais abrangentes, projetadas especificamente para produtores agrícolas, 
-                proporcionando acesso a serviços financeiros independentemente da localização.
+                Comprehensive digital banking solutions, specifically designed for agricultural producers, 
+                providing access to financial services regardless of location.
                 </p>
               </CardContent>
             </Card>
@@ -240,16 +240,16 @@ export default function FazzaAgroBankLanding() {
                   <Shield className="h-8 w-8 text-emerald-600" />
                 </div>
                 <CardTitle className="text-2xl text-gray-900 group-hover:text-emerald-600 transition-colors duration-300">
-                  Tokenização de sacas de Café
+                  Tokenization of Coffee Bags
                 </CardTitle>
                 <CardDescription className="text-amber-600 font-medium">
-                  Produção tokenizada para financiamento imediato
+                  Tokenized production for immediate financing
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 leading-relaxed">
-                Sistema revolucionário de tokenização baseado em blockchain que permite aos produtores 
-                obter financiamento imediato para sua produção de café.
+                A revolutionary blockchain-based tokenization system that allows producers 
+                to obtain immediate financing for their coffee production.
                 </p>
               </CardContent>
             </Card>
@@ -260,16 +260,16 @@ export default function FazzaAgroBankLanding() {
                   <Globe className="h-8 w-8 text-amber-600" />
                 </div>
                 <CardTitle className="text-2xl text-gray-900 group-hover:text-amber-600 transition-colors duration-300">
-                  Cashback Social
+                  Social Cashback
                 </CardTitle>
                 <CardDescription className="text-emerald-600 font-medium">
-                  Apoiando projetos sociais globais
+                  Supporting global social projects
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 leading-relaxed">
-                  Parte das taxas de transação é destinada a projetos sociais na Palestina, África e programas infantis, 
-                  criando um impacto social positivo a cada transação.
+                  Part of the transaction fees is allocated to social projects in Palestine, Africa, and children's programs, 
+                  creating a positive social impact with every transaction.
                 </p>
               </CardContent>
             </Card>
@@ -282,10 +282,10 @@ export default function FazzaAgroBankLanding() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-amber-300 to-amber-200 bg-clip-text text-transparent leading-tight py-2">
-              Oportunidade de Mercado
+              Market Opportunity
             </h2>
             <p className="text-lg text-slate-300 max-w-3xl mx-auto">
-              Posicionada na intersecção da agricultura e da tecnologia blockchain em um mercado em rápido crescimento.
+              Positioned at the intersection of agriculture and blockchain technology in a rapidly growing market.
             </p>
           </div>
 
@@ -298,8 +298,8 @@ export default function FazzaAgroBankLanding() {
                     <Globe className="w-6 h-6 text-black" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-emerald-300">Setor Agrícola Global</h4>
-                    <p className="text-2xl font-bold text-amber-400">US$ 10 trilhões</p>
+                    <h4 className="font-semibold text-emerald-300">Global Agricultural Sector</h4>
+                    <p className="text-2xl font-bold text-amber-400">$10 trillion</p>
                   </div>
                 </div>
               </div>
@@ -310,8 +310,8 @@ export default function FazzaAgroBankLanding() {
                     <TrendingUp className="w-6 h-6 text-black" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-amber-300">Blockchain no crescimento da agricultura</h4>
-                    <p className="text-2xl font-bold text-emerald-400">30% ao ano</p>
+                    <h4 className="font-semibold text-amber-300">Blockchain in Agriculture Growth</h4>
+                    <p className="text-2xl font-bold text-emerald-400">30% per year</p>
                   </div>
                 </div>
               </div>
@@ -322,8 +322,8 @@ export default function FazzaAgroBankLanding() {
                     <Leaf className="w-6 h-6 text-black" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-emerald-300">Posição de Mercado do Brasil</h4>
-                    <p className="text-sm text-slate-300">Líder na produção agrícola, mercado-chave para expansão.</p>
+                    <h4 className="font-semibold text-emerald-300">Brazil's Market Position</h4>
+                    <p className="text-sm text-slate-300">A leader in agricultural production, a key market for expansion.</p>
                   </div>
                 </div>
               </div>
@@ -338,8 +338,8 @@ export default function FazzaAgroBankLanding() {
                     <DollarSign className="w-6 h-6 text-black" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-amber-300">Crédito e Seguros</h4>
-                    <p className="text-sm text-slate-300">Linhas de crédito acessíveis e direcionadas.</p>
+                    <h4 className="font-semibold text-amber-300">Credit and Insurance</h4>
+                    <p className="text-sm text-slate-300">Accessible and targeted credit lines.</p>
                   </div>
                 </div>
               </div>
@@ -350,9 +350,9 @@ export default function FazzaAgroBankLanding() {
                     <Coins className="w-6 h-6 text-black" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-emerald-300">Financiamento e tokenização</h4>
-                    <p className="text-sm text-slate-300">tokenização de ativos e plataformas de negociação para 
-                      agricultores. </p>
+                    <h4 className="font-semibold text-emerald-300">Financing and Tokenization</h4>
+                    <p className="text-sm text-slate-300">Asset tokenization and trading platforms for 
+                      farmers. </p>
                   </div>
                 </div>
               </div>
@@ -363,8 +363,8 @@ export default function FazzaAgroBankLanding() {
                     <Shield className="w-6 h-6 text-black" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-amber-300">Infraestrutura financeira</h4>
-                    <p className="text-sm text-slate-300"> linhas de crédito específicas e seguros customizados.
+                    <h4 className="font-semibold text-amber-300">Financial Infrastructure</h4>
+                    <p className="text-sm text-slate-300">Specific credit lines and customized insurance.
                     </p>
                   </div>
                 </div>
@@ -379,10 +379,10 @@ export default function FazzaAgroBankLanding() {
       <section className="py-24 px-4 bg-gradient-to-r from-emerald-900 to-emerald-700">
         <div className="container mx-auto text-center">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-white mb-6">Pronto para transformar seu negócio agrícola?</h2>
+            <h2 className="text-4xl font-bold text-white mb-6">Ready to transform your agricultural business?</h2>
             <p className="text-1xl text-emerald-100 mb-10 max-w-3xl mx-auto leading-relaxed">
-              Deseja saber como o Fazza Agro Bank pode beneficiar seu negócio e oferecer soluções financeiras inovadoras para impulsionar
-              a produtividade no campo? Entre em contato e descubra como podemos contribuir para o crescimento sustentável do seu empreendimento agrícola.
+              Want to know how Fazza Agro Bank can benefit your business and offer innovative financial solutions to boost
+              productivity in the field? Get in touch and discover how we can contribute to the sustainable growth of your agricultural enterprise.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link href="/under">
@@ -390,7 +390,7 @@ export default function FazzaAgroBankLanding() {
                 size="lg"
                 className="bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-slate-900 font-semibold text-lg px-10 py-4 shadow-2xl hover:shadow-amber-500/25 transition-all duration-300 transform hover:scale-105"
               >
-                 Explore Nossas Soluções
+                 Explore Our Solutions
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               </Link>
@@ -400,7 +400,7 @@ export default function FazzaAgroBankLanding() {
                 variant="outline"
                 className="text-lg px-10 py-4 border-2 border-white text-white hover:bg-white hover:text-emerald-600 transition-all duration-300 transform hover:scale-105"
               >
-                Entrar em contato
+                Get in Touch
               </Button>
               </Link>
             </div>
@@ -412,7 +412,7 @@ export default function FazzaAgroBankLanding() {
       <footer className="bg-emerald-950 text-white py-16 px-4">
         <div className="container mx-auto">
           
-          {/* Conteúdo principal */}
+          {/* Main Content */}
           <div className="grid md:grid-cols-1 gap-8 mb-12 place-items-center text-center">
             <div className="max-w-md">
               <div className="flex flex-col items-center mb-6">
@@ -426,7 +426,7 @@ export default function FazzaAgroBankLanding() {
                 </span>
               </div>
               <p className="text-emerald-200 leading-relaxed">
-                Transformando a agricultura por meio de soluções bancárias digitais inovadoras com uma abordagem moderna.
+                Transforming agriculture through innovative digital banking solutions with a modern approach.
               </p>
             </div>
           </div>

@@ -31,6 +31,8 @@ export default function ContactPage() {
     }))
   }
 
+
+
   const handleCheckboxChange = (checked: boolean) => {
     setFormData((prev) => ({
       ...prev,
@@ -55,13 +57,13 @@ export default function ContactPage() {
       const data = await res.json();
 
       if (data.success) {
-        alert("Mensagem enviada com sucesso!");
+        alert("Message sent successfully!");
       } else {
-        alert("Erro ao enviar. Tente novamente.");
+        alert("Error sending message. Please try again.");
       }
     } catch (error) {
-      console.error("Erro:", error);
-      alert("Erro inesperado ao enviar.");
+      console.error("Error:", error);
+      alert("An unexpected error occurred while sending.");
     }
     setIsSubmitting(false)
 
@@ -97,7 +99,7 @@ export default function ContactPage() {
             <Link href="/">
             <Button variant="outline" className="border-emerald-200 text-emerald-600 hover:bg-emerald-50">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Voltar Início
+              Back to Home
             </Button>
             </Link>
           </div>
@@ -121,15 +123,15 @@ export default function ContactPage() {
                 </div>
 
                 <h2 className="text-4xl font-bold mb-8">
-                  Vamos crescer
+                  Let's Grow
                   <span className="block bg-gradient-to-r from-amber-400 to-emerald-400 bg-clip-text text-transparent leading-tight py-2">
-                    Juntos
+                    Together
                   </span>
                 </h2>
 
                 <p className="text-lg text-white/90 mb-78 leading-relaxed">
-                  Entre em contato conosco e descubra como podemos transformar seu negócio agrícola
-                  em soluções financeiras inovadoras.
+                  Contact us and discover how we can transform your agricultural business
+                  with innovative financial solutions.
                 </p>
 
                 {/* Contact Info */}
@@ -149,23 +151,22 @@ export default function ContactPage() {
             {/* Mobile Header Info */}
             <div className="lg:hidden mb-8 text-center">
               <h1 className="text-3xl font-bold text-gray-900 mb-4">
-                Entre em{" "}
-                <span className="bg-gradient-to-r from-amber-500 to-emerald-600 bg-clip-text text-transparent">Contato</span>
+                Get in{" "}
+                <span className="bg-gradient-to-r from-amber-500 to-emerald-600 bg-clip-text text-transparent">Touch</span>
               </h1>
-              <p className="text-gray-600">Entre em contato conosco e descubra como podemos transformar seu negócio agrícola
-                  em soluções financeiras inovadoras.</p>
+              <p className="text-gray-600">Contact us and discover how we can transform your agricultural business with innovative financial solutions.</p>
             </div>
 
             {/* Desktop Header */}
             <div className="hidden lg:block mb-8">
               <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                Entrar em{" "}
+                Get in{" "}
                 <span className="bg-gradient-to-r from-amber-500 to-emerald-600 bg-clip-text text-transparent">
-                  Contato
+                  Touch
                 </span>
               </h1>
               <p className="text-gray-600 text-lg">
-                Quer saber mais sobre o nosso banco digital e investimento? Vamos conversar.
+                Want to know more about our digital bank and investments? Let's talk.
               </p>
             </div>
 
@@ -181,7 +182,7 @@ export default function ContactPage() {
               {/* Name */}
               <div className="space-y-2">
                 <Label htmlFor="name" className="text-gray-700 font-medium">
-                  Nome *
+                  Name *
                 </Label>
                 <Input
                   id="name"
@@ -191,7 +192,7 @@ export default function ContactPage() {
                   value={formData.name}
                   onChange={handleInputChange}
                   className="border-gray-300 focus:border-amber-400 focus:ring-amber-400/20"
-                  placeholder="Digite seu nome completo"
+                  placeholder="Enter your full name"
                 />
               </div>
 
@@ -208,14 +209,14 @@ export default function ContactPage() {
                   value={formData.email}
                   onChange={handleInputChange}
                   className="border-gray-300 focus:border-emerald-400 focus:ring-emerald-400/20"
-                  placeholder="Digite seu endereço de e-mail"
+                  placeholder="Enter your email address"
                 />
               </div>
 
               {/* Company */}
               <div className="space-y-2">
                 <Label htmlFor="company" className="text-gray-700 font-medium">
-                  Empresa
+                  Company
                 </Label>
                 <Input
                   id="company"
@@ -224,14 +225,14 @@ export default function ContactPage() {
                   value={formData.company}
                   onChange={handleInputChange}
                   className="border-gray-300 focus:border-amber-400 focus:ring-amber-400/20"
-                  placeholder="Digite o nome da sua empresa"
+                  placeholder="Enter your company's name"
                 />
               </div>
 
               {/* Position */}
               <div className="space-y-2">
                 <Label htmlFor="position" className="text-gray-700 font-medium">
-                  Posição
+                  Position
                 </Label>
                 <Input
                   id="position"
@@ -240,7 +241,7 @@ export default function ContactPage() {
                   value={formData.position}
                   onChange={handleInputChange}
                   className="border-gray-300 focus:border-emerald-400 focus:ring-emerald-400/20"
-                  placeholder="Insira sua posição"
+                  placeholder="Enter your position"
                 />
               </div>
 
@@ -256,14 +257,14 @@ export default function ContactPage() {
                   value={formData.whatsapp}
                   onChange={handleInputChange}
                   className="border-gray-300 focus:border-amber-400 focus:ring-amber-400/20"
-                  placeholder="+55 (11) 99999-9999"
+                  placeholder="+1 (555) 123-4567"
                 />
               </div>
 
               {/* Description */}
               <div className="space-y-2">
                 <Label htmlFor="description" className="text-gray-700 font-medium">
-                  Mensagem *
+                  Message *
                 </Label>
                 <Textarea
                   id="description"
@@ -272,7 +273,7 @@ export default function ContactPage() {
                   value={formData.description}
                   onChange={handleInputChange}
                   className="border-gray-300 focus:border-emerald-400 focus:ring-emerald-400/20 min-h-[120px]"
-                  placeholder="Conte-nos sobre seu negócio agrícola e como podemos ajudar..."
+                  placeholder="Tell us about your agricultural business and how we can help..."
                 />
               </div>
 
@@ -285,11 +286,11 @@ export default function ContactPage() {
                   className="mt-1 border-gray-300 data-[state=checked]:bg-emerald-600 data-[state=checked]:border-emerald-600"
                 />
                 <Label htmlFor="privacy" className="text-sm text-gray-600 leading-relaxed">
-                  Eu concordo com o{" "}
+                  I agree to the{" "}
                   <Link href="/privacy" className="text-emerald-600 hover:text-emerald-700 underline">
-                    Política de Privacidade
+                    Privacy Policy
                   </Link>{" "}
-                  e consente com o processamento dos meus dados pessoais para fins de resposta à minha consulta.
+                  and consent to the processing of my personal data for the purpose of responding to my inquiry.
                 </Label>
               </div>
 
@@ -306,7 +307,7 @@ export default function ContactPage() {
                   </div>
                 ) : (
                   <>
-                    Enviar Mensagem
+                    Send Message
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </>
                 )}
