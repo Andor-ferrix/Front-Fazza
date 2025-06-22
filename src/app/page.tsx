@@ -83,9 +83,9 @@ export default function FazzaAgroBankLanding() {
           <div className="container mx-auto text-center">
             <div className="mb-64">
             </div>
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-8 leading-tight break-words">
+            <h1 className="text-white text-4xl sm:text-6xl lg:text-7xl font-bold mb-8 leading-tight break-words">
               <span className="text-white">Transforming </span>
-              
+
               <span className="bg-gradient-to-r from-amber-400 via-yellow-300 to-emerald-400 bg-clip-text text-transparent">
                 Agriculture
               </span>
